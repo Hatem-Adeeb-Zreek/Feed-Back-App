@@ -1,6 +1,8 @@
 function App() {
   return (
-    <h1>Hello from the App component</h1>
+    <div className="container">
+       <h1>Feed Back App</h1>
+    </div>
   )
 }
 export default App;
