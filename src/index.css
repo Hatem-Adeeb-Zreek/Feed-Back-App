@@ -27,7 +27,7 @@ header {
   height: 70px;
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
@@ -87,7 +87,7 @@ header {
 
 .rating li:hover,
 .num-display {
-  background: #ff6a95;
+  background: rgb(89, 195, 195);
   color: #fff;
 }
 
