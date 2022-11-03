@@ -1,11 +1,17 @@
-function Header({text}) {
+function Header({text, bgColor, textColor}) {
+  const headerStyle= {
+      backgroundColor: bgColor,
+      color: textColor
+  }
   return (
-    <header>
+    <header style={headerStyle}>
         <h2>{text}</h2>
     </header>
   )
 }
 Header.defaultProps = {
-    text: 'Feedback App'
+    text: 'Feedback App',
+    bgColor: '#59C3C3',
+    textColor: '#fff'
 }
 export default Header
